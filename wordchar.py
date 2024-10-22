@@ -11,9 +11,8 @@ Sample Output:
 Words: 1
 Letters: 6
 '''
-input_string = input("Enter a string: ")
-word_count = len(input_string.split())
-character_count = len(input_string)
-
-print(f"Words: {word_count}")
-print(f"Letters: {character_count}")
+a="hello world"
+b=len(a.split())
+c=len(a)
+print("words: ",b)
+print("characters: ",c)
